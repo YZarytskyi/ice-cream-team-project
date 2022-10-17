@@ -1,3 +1,13 @@
+.modal-products {
+  position: static;
+  margin: 0 auto;
+  transform: translate(0) scale(1);
+  
+  .backdrop.is-hidden & {
+    transform: translate(0) scale(1.1);
+  }
+}
+
 .modal__image {
   position: relative;
   display: block;
